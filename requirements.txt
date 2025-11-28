@@ -1,0 +1,6 @@
+requests
+google-auth
+google-auth-oauthlib
+duckduckgo-search
+questionary
+rich
