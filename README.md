@@ -6,12 +6,12 @@ Designed for developers, it features a robust **Multi-Authentication System** (G
 
 ## Key Features
 
-*   ** Multi-Auth Support**: Flexible login via Google OAuth (Code Assist), Standard API Key, or Vertex AI.
-*   ** Agentic Workflow**: Autonomous tool use for File I/O, Web Search (DuckDuckGo), and System Commands.
-*   ** Multimodal**: Drag-and-drop support for Images (`.jpg`, `.png`) and Videos (`.mp4`).
-*   ** MCP Integration**: Connect to any MCP Server to extend capabilities infinitely.
-*   ** Safe Mode**: Built-in sandbox with user-confirmation loops for sensitive actions.
-*   ** Rich UI**: Beautiful, interactive terminal interface with spinners, boxed menus, and syntax highlighting.
+*   **Multi-Auth Support**: Flexible login via Google OAuth (Code Assist), Standard API Key, or Vertex AI.
+*   **Agentic Workflow**: Autonomous tool use for File I/O, Web Search (DuckDuckGo), and System Commands.
+*   **Multimodal**: Drag-and-drop support for Images (`.jpg`, `.png`) and Videos (`.mp4`).
+*   **CP Integration**: Connect to any MCP Server to extend capabilities infinitely.
+*   **Safe Mode**: Built-in sandbox with user-confirmation loops for sensitive actions.
+*   **Rich UI**: Beautiful, interactive terminal interface with spinners, boxed menus, and syntax highlighting.
 
 ##  Installation
 
