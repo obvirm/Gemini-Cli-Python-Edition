@@ -1,19 +1,19 @@
-# 🚀 Gemini CLI (Python Edition)
+# Gemini CLI (Python Edition)
 
 **Gemini CLI** is a next-generation terminal interface for Google's **Gemini 3 Pro** models. It goes beyond simple chat by offering full **Agentic Capabilities**—allowing the AI to read files, search the web, and execute terminal commands autonomously.
 
 Designed for developers, it features a robust **Multi-Authentication System** (Google OAuth, API Key, or Vertex AI), **Multimodal Inputs** (Images & Video), and seamless integration with the **Model Context Protocol (MCP)**.
 
-## ✨ Key Features
+## Key Features
 
-*   **🔐 Multi-Auth Support**: Flexible login via Google OAuth (Code Assist), Standard API Key, or Vertex AI.
-*   **🤖 Agentic Workflow**: Autonomous tool use for File I/O, Web Search (DuckDuckGo), and System Commands.
-*   **👁️ Multimodal**: Drag-and-drop support for Images (`.jpg`, `.png`) and Videos (`.mp4`).
-*   **🔌 MCP Integration**: Connect to any MCP Server to extend capabilities infinitely.
-*   **🛡️ Safe Mode**: Built-in sandbox with user-confirmation loops for sensitive actions.
-*   **🎨 Rich UI**: Beautiful, interactive terminal interface with spinners, boxed menus, and syntax highlighting.
+*   ** Multi-Auth Support**: Flexible login via Google OAuth (Code Assist), Standard API Key, or Vertex AI.
+*   ** Agentic Workflow**: Autonomous tool use for File I/O, Web Search (DuckDuckGo), and System Commands.
+*   ** Multimodal**: Drag-and-drop support for Images (`.jpg`, `.png`) and Videos (`.mp4`).
+*   ** MCP Integration**: Connect to any MCP Server to extend capabilities infinitely.
+*   ** Safe Mode**: Built-in sandbox with user-confirmation loops for sensitive actions.
+*   ** Rich UI**: Beautiful, interactive terminal interface with spinners, boxed menus, and syntax highlighting.
 
-## 📦 Installation
+##  Installation
 
 1.  **Clone the repository**:
     ```bash
@@ -27,7 +27,7 @@ Designed for developers, it features a robust **Multi-Authentication System** (G
     ```
     *(Requires Python 3.8+)*
 
-## 🚀 Usage
+##  Usage
 
 Run the main script:
 
@@ -40,7 +40,7 @@ On the first run, you'll be prompted to authenticate. You can choose between:
 2.  **Gemini API Key** (Standard API)
 3.  **Vertex AI** (Google Cloud)
 
-### 🎮 Commands
+###  Commands
 
 | Command | Description | Example |
 | :--- | :--- | :--- |
@@ -55,7 +55,7 @@ On the first run, you'll be prompted to authenticate. You can choose between:
 | `/clear` | Clear chat history | `/clear` |
 | `/exit` | Exit application | `/exit` |
 
-## 📂 Project Structure
+##  Project Structure
 
 *   `gemini_cli.py`: Main entry point and CLI loop.
 *   `gemini_core/`:
@@ -66,11 +66,11 @@ On the first run, you'll be prompted to authenticate. You can choose between:
     *   `config.py`: Global configuration.
     *   `personas.py`: System instruction templates.
 
-## ⚠️ Important Notes
+##  Important Notes
 
 *   **Video Size**: Recommended < 20MB (sent via Base64).
 *   **Safe Mode**: ON by default. Disable with `/safe` for fully autonomous agentic behavior.
 *   **Privacy**: Tokens are stored locally in `credentials.json`. Do not share this file.
 
 ---
-*Happy Coding with Gemini!* 🤖
+*Happy Coding with Gemini!* 
