@@ -1,5 +1,7 @@
 # Gemini CLI (Python Edition)
 
+![Example 1](12.png)
+
 **Gemini CLI** is a next-generation terminal interface for Google's **Gemini 3 Pro** models. It goes beyond simple chat by offering full **Agentic Capabilities**—allowing the AI to read files, search the web, and execute terminal commands autonomously.
 
 Designed for developers, it features a robust **Multi-Authentication System** (Google OAuth, API Key, or Vertex AI), **Multimodal Inputs** (Images & Video), and seamless integration with the **Model Context Protocol (MCP)**.
